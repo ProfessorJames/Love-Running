@@ -96,16 +96,19 @@ main {
 }
 
 /* Footer */
-footer {
-    background-color: orange;
-}
-
-footer ul {
+#social-networks {
+    text-align: center;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 20px 0;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
 
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+}
 
 /* media queries */
 @media screen and (min-width: 768px) {
