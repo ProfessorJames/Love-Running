@@ -99,3 +99,30 @@ main {
 footer {
     background-color: orange;
 }
+
+
+/* media queries */
+@media screen and (min-width: 768px) {
+
+    /* Header */
+    nav {
+        position: relative;
+        display: block;
+        width: fit-content;
+        box-shadow: none;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-right: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+}
