@@ -10,7 +10,7 @@
 }
 
 
-/* Body */
+/* General Styles */
 
 body {
     min-height: 100vh;
@@ -29,6 +29,11 @@ h3 {
     text-transform: uppercase;
     color: #252525;
     letter-spacing: 2px;
+}
+
+
+.hidden-heading {
+    display: none;
 }
 
 /* Header */
