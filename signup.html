@@ -57,15 +57,75 @@
     <!-- Main Content -->
     <main>
       <section id="signup">
-        <form action="" method="POST" id="signup-form">
+        <form
+          id="signup-form"
+          method="POST"
+          action="https://formdump.codeinstitute.net"
+        >
           <h2>
             <i class="fa-solid fa-heart-pulse"></i>Let's Get You Signed Up!
-            <label for="first_name">First name</label>
-            <input type="text" name="first_name" id="first_name" />
-            <br />
-            <label for="last_name"></label>
-            <input type="text" name="last_name" id="last_name" />
           </h2>
+          <label for="first_name">First Name</label>
+          <input
+            type="text"
+            name="first_name"
+            id="first_name"
+            class="text-input"
+            required
+          />
+          <br />
+          <label for="last_name">Last Name</label>
+          <input
+            type="text"
+            name="last_name"
+            id="last_name"
+            class="text-input"
+            required
+          />
+          <br />
+          <label for="email_address">Email Address</label>
+          <input
+            type="email"
+            id="email_address"
+            name="email_address"
+            class="text-input"
+            required
+          />
+          <br />
+          <div class="radio_buttons">
+            <div>
+              <label for="road">Road</label>
+              <input
+                type="radio"
+                id="road"
+                name="running-preference"
+                value="road"
+                required
+                checked
+              />
+            </div>
+            <div>
+              <label for="trail">Trail</label>
+              <input
+                type="radio"
+                id="trail"
+                name="running-preference"
+                value="trail"
+                required
+              />
+            </div>
+            <div>
+              <label for="both">Both</label>
+              <input
+                type="radio"
+                id="both"
+                name="running-preference"
+                value="both"
+                required
+              />
+            </div>
+          </div>
+          <button type="sumbit" class="join-button">Let's Run!</button>
         </form>
       </section>
     </main>
